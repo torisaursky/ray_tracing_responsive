@@ -1,0 +1,75 @@
+<html>
+
+
+<head>
+    <title>History | A Look at Ray Tracing</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id = page>
+
+    <!--Main Title-->
+    <h1>A LOOK AT RAY TRACING</h1>
+
+    <!--Navigation Menu-->
+    <nav>
+        <a href = "Home Page.html">WHAT IS RAY TRACING?</a>
+        <a href = "History.html">HISTORY</a>
+        <a href = "Gallery.html">GALLERY</a>
+    </nav>
+
+    <div id = "main_content">
+        
+        <!--Page Title-->
+        <h2>The History of Ray Tracing</h2>
+
+
+        <!--Rasterization-->
+        <div class = info_section>
+            <h3>Rasterization</h3>
+            <p>
+                Before ray tracing, the go-to process for rendering 3D images was rasterization, a process that converts 3D images into 2D pixels. It does this by using polygons to render images and z values to determine depth and the order to render images in. Techniques like gouraud shading or phong shading light each polygon a certain amount depending on its proximity to a light source. Reflections often suffer when using rasterization, so that’s where pairing ray tracing with rasterization comes in.
+                
+            </p>
+        </div>
+
+        <!--Timeline (Section 1)-->
+        <div class = info_section>
+            <h3>16th Century</h3>
+            <ul>
+                <li>Albrecht Dürer created Dürer’s Door, an apparatus that would use thread attached to a stylus to essentially “trace” the 3-D object</li>
+                <li>The thread used serves as the “ray” in this early concept</li>
+                    
+
+            </ul>
+        </div>
+
+        <!--Timeline (Section 2)-->
+        <div class = info_section>
+            <h3>Ray Tracing Meets the Computer (Late 60s & 70s)</h3>
+            <ul>
+                <li>1968: Arthur Appel was the first to accomplish computer ray tracing. He first traced to determine the closest surfaces to the camera for any given point, then a used secondary rays to determine whether or not that point was in shadow</li>
+                <li>1971: Goldstein and Nagel simulated taking a photo in reverse; rays were cast through each pixel to identify a surface and determined the brightness of that pixel by keeping in mind the light source</li>
+                <li>1976: Scott Roth creates a flip-book animation using ray casting to note edge points (intersections of planes)</li>
+                <li>1979: Turner Whitted uses ray tracing for mirror reflection and refraction through translucent objects, anti-aliasing, and to trace shadows</li>
+
+            </ul>
+        </div>
+
+        <div class = "info_image">
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+</body>
+
+    
+</html>

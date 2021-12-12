@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Overview | A Look at Ray Tracing</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body >
+
+    <div id = "page">
+
+    <!--Main Title-->
+    <h1>A LOOK AT RAY TRACING</h1>
+
+    <!--Navigation Menu-->
+    <nav>
+            <a href = "Home Page.html">WHAT IS RAY TRACING?</a>
+            <a href = "History.html">HISTORY</a>
+            <a href = "Gallery.html">GALLERY</a>
+    </nav>
+
+    
+
+    <div id = "main_content">
+
+        <!--Page Title-->
+        <h2>Ray Tracing Overview</h2>
+        
+        <img class = "home_image" src = "images/home_example.jpg">
+
+        <div class = info_section>
+            <h3>What is Ray Tracing?</h3>
+            <p>Ray tracing is an advanced rendering technique that traces the path of light and how it interacts with different virtual objects and surfaces that allows for more dramatic and/or realistic lighting and shadows. It works by sending out a ray from the screen or camera that bounces off these surfaces until they hit a light source or are told to stop. For example, if a ray bounces straight towards a light source and hits something in the way, that area would be in the shade. If the ray hits a light source, then that area is illuminated by that light source.</p>
+            <p>There are some challenges that come with ray tracing. At best, one ray will give one pixel of information to the screen as there is the possibility of a ray bouncing off to a non-visible area. Additionally, rays sent out will often split into other rays when they hit surfaces that aren’t completely reflective. Because of this, it takes a lot of horsepower to render an image using ray tracing. Film and animation studios can afford the render power and time for these images because they have the resources and don’t need to render in real time. However, in the gaming world, this means that maintaining a playable and enjoyable frame rate with full ray tracing is practically impossible. So what does it mean when a game is “ray-traced”?</p>
+        </div>
+        <div class = info_section>
+            <h3>Common Misconceptions</h3>
+            <p>Games that utilize ray-tracing are not <i>fully</i> ray traced. To do so would take an insane amount of processing power and time, so no matter how optimized a computer is, running a game with full ray tracing is not possible with today’s technology. As a result, ray tracing is often used for a specific function, such as for reflections, certain lighting, and traveling through translucent objects. The other objects that need to be rendered use rasterization (see <a href = "History.html"><i><u>History</u></i></a>), a rendering technique that had been used in 3D computer games for almost the entirety of their existence. Rasterization is used for depth, angles, and the relationship to the player, while ray tracing handles lighting and reflections.</p>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!--Sources-->
+    <div id = "sources">
+
+        <div class = "source_text">
+
+            <h2>Sources</h2>
+
+            <h3>Research</h3>
+            <ul>
+                <li><a href = https://www.techradar.com/news/ray-tracing class = "source_links">Tech Radar: What is ray tracing? Everything you need to know, from games to graphics cards</a></li>
+                <li><a href = https://youtu.be/BTxMDwAGll4 class = "source_links">The Game Theorists: What FNAF's New Look Means For The Future of Gaming | The SCIENCE of... Ray Tracing</a></li>
+                <li><a href = https://www.wikiwand.com/en/Ray_tracing_(graphics)#/History class = "source_links">Wikiwand: Ray tracing (graphics)</a></li>
+            </ul>
+
+            <h3>Images</h3>
+            <ul>
+                <li><a href = https://www.wired.com/story/what-is-ray-tracing/ class = "source_links">(Home Image) Wired: What Is Ray Tracing? The Latest Gaming Buzzword Explained</a></li>
+                <li><a href = https://www.wikiwand.com/en/Ray_tracing_(graphics)#/History class = "source_links">(Colored Balls) Wikiwand: Ray tracing (graphics)</a></li>
+                <li><a href = https://www.digitaltrends.com/gaming/battlefield-v-dxr-ray-tracing-tested/ class = "source_links">(Battlefield) Digital Trends: 'Battlefield V' Ray Tracing Tested: Can a Patch Save RTX?</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
